@@ -25,7 +25,7 @@ class Load
 
     public static function autoload($ClassName)
     {
-        $path = str_replace('\\', '/', dirname(__FILE__) . '/' . $ClassName . '.Class.php');
+        $path = str_replace('\\', '/', dirname(__FILE__) . '/Libaray/Classes/' . $ClassName . '.Class.php');
 
         if (file_exists($path)) {
             require_once $path;
