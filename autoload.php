@@ -1,11 +1,11 @@
 <?php
 /**
- *@Filename	bootstrap.php
+ *@Filename	autoload.php
  *@Language	PHP
  *@Datetime	2018年10月9日 下午12:46:07
  *@Author	yangyang hi@168linux.cn
  *
- *自动加载PHPWord相关类库
+ *自动加载类库
  **/
 require_once __DIR__ . '/Autoload/autoload_real.php';
 
