@@ -67,6 +67,6 @@ $section->addListItem('List Item I.b', 2, null, 'multilevel');
 $section->addListItem('List Item I.b', 3, null, 'multilevel');
 $section->addListItem('List Item I.b', 2, null, 'multilevel');
 
-$section->addText("helloworld");
+$section->addText("helloworld",[],['lineHeight'=>\PhpOffice\PhpWord\Shared\Converter::]);
 $obj = \PhpOffice\PhpWord\IOFactory::createWriter($phpword, "Word2007");
 $obj->save("text.docx");
